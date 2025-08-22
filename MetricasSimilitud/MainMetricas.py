@@ -13,10 +13,11 @@ instancia = pd.read_csv("InstanciaTennis.csv")
 #print(instancia)
 #comparacion del registro 1 con todos los demas registros
 print("Registro a comparar:")
-registro_comp = list(instancia.loc[0])
+registro_comp = list(instancia.loc[0].to_dict().values())
 print(registro_comp)
 print(" resultado de la comparación:..")
 for i in range(1,len(instancia)):
-    registro = list(instancia.loc[i])
+    registro = list(instancia.loc[i].to_dict().values())
     dist = hamming(registro_comp, registro)
     print(str(registro) + " Distancia: " + str(dist))
+
