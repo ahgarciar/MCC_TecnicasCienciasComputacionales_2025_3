@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/KNN/CargaInstancia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNN/InstanciaTennis.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNN/Knn_algoritmo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNN/Main_Knn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archivos/InstanciaTennis_Mod1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codificacion/MainCodificacionLabel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codificacion/MainCodificacionOneHot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN/Algoritmo KNN.docx" beforeDir="false" afterPath="$PROJECT_DIR$/KNN/Algoritmo KNN.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN/InstanciaTennis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Archivos/InstanciaTennis.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN/Knn_algoritmo.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN/Knn_algoritmo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN/Main_Knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN/Main_Knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN/~$goritmo KNN.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +40,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.MainCodificacion.executor": "Run",
+    "Python.MainCodificacionLabel.executor": "Run",
     "Python.MainMetricas.executor": "Run",
     "Python.Main_Knn.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/KNN",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.python"
+    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/Codificacion",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="PyDebuggerOptionsProvider">
@@ -50,10 +56,59 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Codificacion" />
+      <recent name="$PROJECT_DIR$/Archivos" />
       <recent name="$PROJECT_DIR$/KNN" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Archivos" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Main_Knn">
+  <component name="RunManager" selected="Python.MainCodificacionLabel">
+    <configuration name="MainCodificacionLabel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TecnicasCienciasComputacionales" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codificacion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codificacion/MainCodificacionLabel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MainCodificacionOneHot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TecnicasCienciasComputacionales" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codificacion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codificacion/MainCodificacionOneHot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MainMetricas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
@@ -100,6 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MainCodificacionLabel" />
+        <item itemvalue="Python.MainCodificacionOneHot" />
         <item itemvalue="Python.Main_Knn" />
         <item itemvalue="Python.MainMetricas" />
       </list>
@@ -130,6 +187,16 @@
           <url>file://$PROJECT_DIR$/MetricasSimilitud/MainMetricas.py</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/KNN/Knn_algoritmo.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Codificacion/MainCodificacionLabel.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
