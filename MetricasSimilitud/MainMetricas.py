@@ -21,3 +21,4 @@ for i in range(1,len(instancia)):
     dist = hamming(registro_comp, registro)
     print(str(registro) + " Distancia: " + str(dist))
 
+
