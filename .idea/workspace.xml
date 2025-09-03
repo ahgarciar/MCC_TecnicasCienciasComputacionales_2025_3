@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN_Split_Instancia/Knn_algoritmo.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Split_Instancia/Knn_algoritmo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KNN_Split_Instancia/Main_Knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Split_Instancia/Main_Knn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
