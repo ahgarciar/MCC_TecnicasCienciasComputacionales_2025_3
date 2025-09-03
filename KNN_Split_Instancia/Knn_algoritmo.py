@@ -1,6 +1,6 @@
 def hamming(vector1, vector2):
     distancia = 0
-    for i in range(1, len(vector1)-1):
+    for i in range(0, len(vector1)-1):
         if vector1[i] != vector2[i]:
             distancia+=1
     return distancia
