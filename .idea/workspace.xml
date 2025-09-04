@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN_Modularizado/KNN_Algoritmo.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Modularizado/KNN_Algoritmo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KNN_Modularizado/Main_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Modularizado/Main_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN_Modularizado/MatrizConfusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Modularizado/MatrizConfusion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN_Modularizado/MetricasSimilitud.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Modularizado/MetricasSimilitud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN_Modularizado/SplitInstacia.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Modularizado/SplitInstacia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
