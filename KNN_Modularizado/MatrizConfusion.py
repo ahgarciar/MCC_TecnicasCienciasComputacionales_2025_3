@@ -17,14 +17,21 @@ def exec(respReales, respAlgoritmo):
                 TN += 1
 
     eficiencia = (TP + TN) / (TP + FN + FP + TN)
-    precision = TP / (TP + FP)
-    recall = TP / (TP + FN)
-    f1_score = 2 * ((precision * recall) / (precision + recall))
+    #precision = TP / (TP + FP)
+    #recall = TP / (TP + FN)
+    #f1_score = 2 * ((precision * recall) / (precision + recall))
 
-    print("Tot Correctas: " + str(TP + TN))
-    print("Tot Pruebas: " + str(len(respReales)))
+    #por fines de prueba se comentaron las ecuaciones....
+    precision = 0
+    recall = 0
+    f1_score = 0
 
-    print("Eficiencia: " + str(eficiencia))
-    print("Precision: " + str(precision))
-    print("Recall: " + str(recall))
-    print("F1-Score: " + str(f1_score))
+    #print("Tot Correctas: " + str(TP + TN))
+    #print("Tot Pruebas: " + str(len(respReales)))
+
+    #print("Eficiencia: " + str(eficiencia))
+    #print("Precision: " + str(precision))
+    #print("Recall: " + str(recall))
+    #print("F1-Score: " + str(f1_score))
+
+    return (eficiencia, precision, recall, f1_score)

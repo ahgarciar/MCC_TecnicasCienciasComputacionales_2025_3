@@ -1,9 +1,6 @@
 import pandas as pd
 
 def split_instance(instance, porcentajeEntrenamiento):
-    # instance = instance.drop("Day", axis=1)
-    instance.drop("Day", axis=1, inplace=True)
-
     totRegEntrenamiento = int(len(instance) * porcentajeEntrenamiento)
     totRegPrueba = len(instance) - totRegEntrenamiento
 

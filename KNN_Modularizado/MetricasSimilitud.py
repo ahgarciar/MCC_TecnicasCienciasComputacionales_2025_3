@@ -47,7 +47,7 @@ def __hamming(vectorA, vectorB):
 def __Manhattan(vectorA, vectorB):
     distancia = 0
 
-    for i in range(len(vectorA)):
+    for i in range(len(vectorA)-1):
         distancia += abs(vectorA[i] - vectorB[i])
 
     return distancia
@@ -57,7 +57,7 @@ def __Manhattan(vectorA, vectorB):
 def __Euclideana(vectorA, vectorB):
     distancia = 0
 
-    for i in range(len(vectorA)):
+    for i in range(len(vectorA)-1):
         distancia += m.pow(vectorA[i] - vectorB[i], 2)
 
     distancia = m.sqrt(distancia)
@@ -67,7 +67,7 @@ def __Euclideana(vectorA, vectorB):
 #Norma Inf
 def __Chebycheff(vectorA, vectorB):
     distancia = 0
-    for i in range(len(vectorA)):
+    for i in range(len(vectorA)-1):
         aux = abs(vectorA[i] - vectorB[i]);
         if aux > distancia:
             distancia = aux

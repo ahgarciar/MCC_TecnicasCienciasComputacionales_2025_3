@@ -1,13 +1,13 @@
 import MetricasSimilitud
 
-def exec(instancia, registro_comp, k):
+def exec(instancia, registro_comp, k, tipoMetrica=0):
     # para crear columna distancia  con el valor por defecto de 0
-    instancia["distancia"] = 0  # instancia["distancia"]
+    instancia["distancia"] = 0.0  # instancia["distancia"]
 
     #print(" resultado de la comparación:..")
     for i in range(0, len(instancia)):
         registro = list(instancia.loc[i].to_dict().values())
-        dist = MetricasSimilitud.getDistancia(registro_comp, registro, tipo=0)
+        dist = MetricasSimilitud.getDistancia(registro_comp, registro, tipo=tipoMetrica)
 
         instancia.loc[i, "distancia"] = dist  # se actualiza el valor de la columna para el registro
         # con base en la distancia calculada
@@ -31,10 +31,10 @@ def exec(instancia, registro_comp, k):
 
     return moda
 
-def probarKnn(entrenamiento, prueba, k):
+def probarKnn(entrenamiento, prueba, k, tipoMetrica = 0):
     respuestas =[]
     for i in range(len(prueba)):
         registro = list(prueba.loc[i])
-        respuesta = exec(entrenamiento, registro, k)
+        respuesta = exec(entrenamiento, registro, k, tipoMetrica)
         respuestas.append(respuesta)
     return respuestas
