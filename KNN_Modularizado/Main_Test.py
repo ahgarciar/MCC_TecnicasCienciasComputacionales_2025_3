@@ -2,17 +2,19 @@ import CargaInstancia
 import KNN_Algoritmo
 import SplitInstacia
 import MatrizConfusion
+import statistics
 
 instancia = None
-id = 0
+id = 3
 
 diccioMetricas = {
     0: [0],
     1: [0,1,2,3],
-    2: [0,1,2,3]
+    2: [0,1,2,3],
+    3: [1, 2, 3]
 }
 
-while id<=2:
+while id<=3:
 
     match(id):
         case 0:
@@ -22,15 +24,16 @@ while id<=2:
             instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaTennisCodLabel.csv")
         case 2:
             instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaTennisCodOneHotVector.csv")
+        case 3:
+            instancia = CargaInstancia.cargarInstancia("../Archivos/iris/iris.csv")
 
-
-    porc_Entrenamiento = 0.6
+    porc_Entrenamiento = 0.8
     entrenamiento, prueba = SplitInstacia.split_instance(instancia, porc_Entrenamiento)
 
     ################################################################################
     ##Calcula valor de K
     import math as m
-    k = m.sqrt(len(entrenamiento))  # valor inicial de prueba para K
+    k = 2#m.sqrt(len(entrenamiento))  # valor inicial de prueba para K
     k = int(k)
     print("Valor de K: " + str(k))
     ################################################################################
@@ -47,16 +50,19 @@ while id<=2:
             respKnn = KNN_Algoritmo.probarKnn(entrenamiento, prueba, k, tipoMetrica=metrica)
             #print(respKnn)
             ##get respuestas reales
-            respCorrectas = list(prueba["Play Tennis"])
+            respCorrectas = list(prueba["class"]) #list(prueba["Play Tennis"])
             #print(respCorrectas)
             ################################################################################
             ##calcula matriz de confusion
-            resultado = MatrizConfusion.exec(respCorrectas, respKnn)
-            resultado = round(resultado[0], 2)
+            #resultado = MatrizConfusion.exec(respCorrectas, respKnn)
+            resultado = MatrizConfusion.confusionMatriz3orMoreClass(respCorrectas, respKnn, 3)
+            resultado = round(resultado, 2)
             resultados.append(resultado)
             ################################################################################
             entrenamiento, prueba = SplitInstacia.split_instance(instancia, porc_Entrenamiento)
             ejecuciones +=1
         print(resultados)
+        mediana = statistics.median(resultados)
+        print(mediana)
 
     id += 1

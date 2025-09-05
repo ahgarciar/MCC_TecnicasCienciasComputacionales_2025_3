@@ -21,7 +21,8 @@ def exec(instancia, registro_comp, k, tipoMetrica=0):
 
     clasesK = []
     for i in range(0, k):  # Desde el 1, porque el valor 0 es el comparacion
-        clase = instancia.loc[i]["Play Tennis"]
+        #clase = instancia.loc[i]["Play Tennis"]
+        clase = instancia.loc[i]["class"]
         clasesK.append(clase)
     #print("Clases K: " + str(clasesK))
 
