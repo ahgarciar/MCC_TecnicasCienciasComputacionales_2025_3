@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Estandarizacion/mainEstandarizacion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estandarizacion/mainNormalizacion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estandarizacion/main_EstandarizaInstancia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archivos/InstanciaLeon.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN_Modularizado/Main_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN_Modularizado/Main_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaiveBayes/Clasificador_NaiveBayes.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayes/Clasificador_NaiveBayes.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaiveBayes/Main_Explanation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayes/Main_Explanation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     "Python.MainCodificacion.executor": "Run",
     "Python.MainCodificacionLabel.executor": "Run",
     "Python.MainMetricas.executor": "Run",
+    "Python.Main_Explanation.executor": "Debug",
     "Python.Main_Knn (1).executor": "Run",
     "Python.Main_Knn.executor": "Run",
     "Python.Main_Test.executor": "Run",
@@ -50,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/KNN_Modularizado",
+    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/NaiveBayes",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -59,18 +59,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NaiveBayes" />
       <recent name="$PROJECT_DIR$/KNN_Modularizado" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Codificacion" />
       <recent name="$PROJECT_DIR$/Archivos" />
-      <recent name="$PROJECT_DIR$/KNN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main_Test">
-    <configuration name="Main_Knn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Main_Explanation">
+    <configuration name="Main_Explanation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN_Split_Instancia" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NaiveBayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN_Split_Instancia/Main_Knn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayes/Main_Explanation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main_Explanation" />
         <item itemvalue="Python.Main_Test" />
         <item itemvalue="Python.main_EstandarizaInstancia" />
         <item itemvalue="Python.mainEstandarizacion" />
         <item itemvalue="Python.mainNormalizacion" />
-        <item itemvalue="Python.Main_Knn (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +230,11 @@
           <url>file://$PROJECT_DIR$/KNN_Modularizado/Main_Test.py</url>
           <line>46</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NaiveBayes/Main_Explanation.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

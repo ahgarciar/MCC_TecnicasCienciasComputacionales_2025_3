@@ -1,21 +1,14 @@
+from KNN_Modularizado import CargaInstancia
 
-
-file2read = open("Instancia_Explicacion_Golf.csv")
-file_content = file2read.readlines()
-
-#############################################################################################
-dataset = []
-for i in file_content:
-    dataset.append((i.replace("\n","")).split(","))
-headers = dataset[0]
-del dataset[0] #remove headers from dataset 
-#############################################################################################
+#instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaTennis.csv")
+instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaLeon.csv")
+#instancia = instancia.drop("Day", axis=1)
 ##count registers per class
 #############################################################################################
 probabilities = []
 auxiliar = {}
-for register_index in range(len(dataset)): 
-    label = dataset[register_index][-1]
+for register_index in range(len(instancia)):
+    label = instancia.iloc[register_index][-1]
     if label in auxiliar:
         auxiliar[label] += 1
     else:
@@ -24,11 +17,12 @@ probabilities.append(auxiliar)
 #############################################################################################
 ##count registers per attribute
 #############################################################################################
-for attribute_index in range(len(dataset[0])-1): 
+tot_atributtes = len(instancia.iloc[0])-1
+for attribute_index in range(tot_atributtes):
     auxiliar = {}
-    for register_index in range(len(dataset)): 
-        v_label = dataset[register_index][attribute_index]
-        v_class = dataset[register_index][-1]
+    for register_index in range(len(instancia)):
+        v_label = instancia.iloc[register_index][attribute_index]
+        v_class = instancia.iloc[register_index][-1]
         if (v_label,v_class) in auxiliar:
             auxiliar[(v_label,v_class)] += 1
         else:
@@ -48,7 +42,7 @@ for index in range(1, len(probabilities)):
 ##calculate probabilities per class
 #############################################################################################
 for c in probabilities[0]:
-    probabilities[0][c] = probabilities[0][c]/len(dataset)
+    probabilities[0][c] = probabilities[0][c]/len(instancia)
     #print(probabilities[0][c])
 #############################################################################################
 #############################################################################################
@@ -56,8 +50,10 @@ for c in probabilities[0]:
 ## classify a register
 #############################################################################################
 
-#register = ["Soleado", "Frío", "Alta", "Fuerte"] #test1
-register = ["Nublado", "Frío", "Normal", "Fuerte"] #test2
+#No
+#Soleado Frío Alta Fuerte
+#register = ["Sunny", "Cool", "High", "Strong"] #
+register = ["Si", "Joven", "Grande"]
 
 
 sum = 0
