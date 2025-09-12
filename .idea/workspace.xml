@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Archivos/InstanciaLeon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetricasSimilitud_0_1/Main_Metricas_0_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedNeuronal/GeneraDatos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedNeuronal/MainRed_Intro1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedNeuronal/MainRed_Intro2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedNeuronal/Main_Hiperparameters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NaiveBayes/Clasificador_NaiveBayes.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayes/Clasificador_NaiveBayes.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaiveBayes/Main_Explanation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayes/Main_Explanation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaiveBayes/~$Clasificador_NaiveBayes.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +39,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.GeneraDatos.executor": "Run",
     "Python.Knn_algoritmo (1).executor": "Debug",
     "Python.Knn_algoritmo.executor": "Debug",
     "Python.MainCodificacion.executor": "Run",
     "Python.MainCodificacionLabel.executor": "Run",
     "Python.MainMetricas.executor": "Run",
+    "Python.MainRed_Intro1.executor": "Run",
+    "Python.MainRed_Intro2.executor": "Run",
     "Python.Main_Explanation.executor": "Debug",
+    "Python.Main_Hiperparameters.executor": "Run",
     "Python.Main_Knn (1).executor": "Run",
     "Python.Main_Knn.executor": "Run",
+    "Python.Main_Metricas_0_1.executor": "Run",
     "Python.Main_Test.executor": "Run",
     "Python.mainEstandarizacion.executor": "Run",
     "Python.mainNormalizacion.executor": "Run",
@@ -69,7 +78,51 @@
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main_Explanation">
+  <component name="RunManager" selected="Python.Main_Metricas_0_1">
+    <configuration name="MainRed_Intro1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TecnicasCienciasComputacionales" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RedNeuronal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RedNeuronal/MainRed_Intro1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MainRed_Intro2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TecnicasCienciasComputacionales" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RedNeuronal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RedNeuronal/MainRed_Intro2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main_Explanation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
@@ -92,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Main_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Main_Hiperparameters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN_Modularizado" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RedNeuronal" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN_Modularizado/Main_Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RedNeuronal/Main_Hiperparameters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mainEstandarizacion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Main_Metricas_0_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,55 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estandarizacion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MetricasSimilitud_0_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estandarizacion/mainEstandarizacion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mainNormalizacion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TecnicasCienciasComputacionales" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estandarizacion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estandarizacion/mainNormalizacion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_EstandarizaInstancia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TecnicasCienciasComputacionales" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estandarizacion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estandarizacion/main_EstandarizaInstancia.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetricasSimilitud_0_1/Main_Metricas_0_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main_Metricas_0_1" />
+        <item itemvalue="Python.Main_Hiperparameters" />
+        <item itemvalue="Python.MainRed_Intro2" />
+        <item itemvalue="Python.MainRed_Intro1" />
         <item itemvalue="Python.Main_Explanation" />
-        <item itemvalue="Python.Main_Test" />
-        <item itemvalue="Python.main_EstandarizaInstancia" />
-        <item itemvalue="Python.mainEstandarizacion" />
-        <item itemvalue="Python.mainNormalizacion" />
       </list>
     </recent_temporary>
   </component>
