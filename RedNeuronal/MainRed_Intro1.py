@@ -1,12 +1,11 @@
 import numpy as np
 import pandas as pd
-from keras import Sequential,layers, optimizers, callbacks
+from keras import Sequential,layers, optimizers, callbacks #machine learning
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-from P7_Knn_conModularizado import LoadInstance
-
-instancia = LoadInstance.load("funcion.csv")
+from KNN_Modularizado import CargaInstancia
+instancia = CargaInstancia.cargarInstancia("funcion.csv")
 
 X = instancia.iloc[:,:-1]
 y = pd.DataFrame(instancia.iloc[:,-1])
@@ -50,7 +49,7 @@ history = model.fit(
     epochs=300,
     batch_size=256,
     callbacks=[early],
-    verbose=1
+    verbose=1 # 0 = no muestra el procedimiento / 1 = muestra el procedimiento
 )
 
 test_loss, test_mae = model.evaluate(X_test_s, y_test_s, verbose=0)
