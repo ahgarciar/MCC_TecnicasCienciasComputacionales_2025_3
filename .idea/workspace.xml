@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RedNeuronal_Clases/Main_Red_Clases_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,34 +30,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.GeneraDatos.executor": "Debug",
-    "Python.Knn_algoritmo (1).executor": "Debug",
-    "Python.Knn_algoritmo.executor": "Debug",
-    "Python.MainCodificacion.executor": "Run",
-    "Python.MainCodificacionLabel.executor": "Run",
-    "Python.MainMetricas.executor": "Run",
-    "Python.MainRed_Intro1.executor": "Debug",
-    "Python.MainRed_Intro2.executor": "Run",
-    "Python.Main_Explanation.executor": "Debug",
-    "Python.Main_Hiperparameters.executor": "Run",
-    "Python.Main_Hiperparameters_3.executor": "Run",
-    "Python.Main_Knn (1).executor": "Run",
-    "Python.Main_Knn.executor": "Run",
-    "Python.Main_Metricas_0_1.executor": "Run",
-    "Python.Main_Red_Clases_1.executor": "Run",
-    "Python.Main_Test.executor": "Run",
-    "Python.mainEstandarizacion.executor": "Run",
-    "Python.mainNormalizacion.executor": "Run",
-    "Python.main_EstandarizaInstancia.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/NaiveBayes",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.GeneraDatos.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Knn_algoritmo (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Knn_algoritmo.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MainCodificacion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainCodificacionLabel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainMetricas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainRed_Intro1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MainRed_Intro2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main_Explanation.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Main_Hiperparameters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main_Hiperparameters_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main_Knn (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main_Knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main_Metricas_0_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main_Red_Clases_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main_Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mainEstandarizacion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mainNormalizacion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_EstandarizaInstancia.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/NaiveBayes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
   </component>

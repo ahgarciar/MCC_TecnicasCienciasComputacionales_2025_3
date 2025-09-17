@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 from joblib import dump
 
-from KNN_Modularizado import CargaInstancia
+from P05_KNN_Modularizado import CargaInstancia
 instancia = CargaInstancia.cargarInstancia("../Archivos/iris/iris.csv")
 #########################################################################################################
 ##SEPARA LA INSTANCIA

@@ -66,7 +66,7 @@ TN = 0
 
 for i in range(len(respuestas)):
     if respCorrecta[i] == "Yes": ##REAL
-        if respuestas[i] == "Yes": #KNN
+        if respuestas[i] == "Yes": #P02_KNN
             TP += 1
         else: #No
             FN += 1

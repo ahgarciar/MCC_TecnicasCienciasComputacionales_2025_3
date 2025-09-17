@@ -1,5 +1,5 @@
 
-from KNN import CargaInstancia
+from P02_KNN import CargaInstancia
 import pandas as pd
 
 instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaTennis.csv")

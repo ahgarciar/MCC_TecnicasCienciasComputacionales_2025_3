@@ -1,4 +1,4 @@
-from KNN_Modularizado import CargaInstancia
+from P05_KNN_Modularizado import CargaInstancia
 
 #instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaTennis.csv")
 instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaLeon.csv")

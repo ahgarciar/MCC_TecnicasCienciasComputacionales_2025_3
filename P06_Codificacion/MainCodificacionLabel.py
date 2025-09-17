@@ -1,5 +1,5 @@
-from Codificacion.MainCodificacionOneHot import nombre_columnas
-from KNN import CargaInstancia
+from P06_Codificacion.MainCodificacionOneHot import nombre_columnas
+from P02_KNN import CargaInstancia
 import pandas as pd
 
 instancia = CargaInstancia.cargarInstancia("../Archivos/InstanciaTennis.csv")

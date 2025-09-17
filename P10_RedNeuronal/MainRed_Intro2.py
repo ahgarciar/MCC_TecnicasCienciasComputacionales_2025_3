@@ -4,7 +4,7 @@ import pandas as pd
 from keras.models import load_model
 from joblib import load
 
-from KNN_Modularizado import CargaInstancia
+from P05_KNN_Modularizado import CargaInstancia
 instancia = CargaInstancia.cargarInstancia("funcion.csv")
 
 X = instancia.iloc[:,:-1]

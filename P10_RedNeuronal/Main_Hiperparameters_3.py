@@ -69,7 +69,7 @@ def exec(X_train_s, y_train_s, X_val_s, y_val_s, iteraciones=12, patience=15, se
     ranking = pd.DataFrame(resultados).sort_values("val_loss").reset_index(drop=True)
     return mejor, ranking
 
-from KNN_Modularizado import CargaInstancia
+from P05_KNN_Modularizado import CargaInstancia
 instancia = CargaInstancia.cargarInstancia("funcion.csv")
 
 X = instancia.iloc[:,:-1]

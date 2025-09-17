@@ -4,7 +4,7 @@ from keras import Sequential,layers, optimizers, callbacks #machine learning
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-from KNN_Modularizado import CargaInstancia
+from P05_KNN_Modularizado import CargaInstancia
 instancia = CargaInstancia.cargarInstancia("funcion.csv")
 
 X = instancia.iloc[:,:-1]

@@ -15,7 +15,7 @@ def exec(respReales, respAlgoritmo):
 
     for i in range(len(respReales)):
         if respReales[i] == "Yes":  ##REAL
-            if respAlgoritmo[i] == "Yes":  # KNN
+            if respAlgoritmo[i] == "Yes":  # P02_KNN
                 TP += 1
             else:  # No
                 FN += 1
