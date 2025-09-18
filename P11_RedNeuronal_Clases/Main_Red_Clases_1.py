@@ -41,11 +41,11 @@ def create_model(input_dim, n_classes):
     model = Sequential([
         layers.Input(shape=(input_dim,)),
 
-        layers.Dense(128, activation="relu"),
+        layers.Dense(8, activation="relu"),
         layers.Dropout(0.1),
 
-        layers.Dense(128, activation="relu"),
-        layers.Dropout(0.1),
+        #layers.Dense(4, activation="relu"),
+        #layers.Dropout(0.1),
 
         layers.Dense(n_classes, activation="softmax")  # IDEAL PARA MULTICLASES
     ])
@@ -67,7 +67,7 @@ history = model.fit(
     X_train_s, y_train,
     validation_data=(X_val_s, y_val),
     epochs=300,
-    batch_size=256,
+    batch_size=7,
     callbacks=[early],
     verbose=1
 )
