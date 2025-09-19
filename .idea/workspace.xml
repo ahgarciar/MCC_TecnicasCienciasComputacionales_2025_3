@@ -28,35 +28,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.GeneraDatos.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Knn_algoritmo (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Knn_algoritmo.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.MainCodificacion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainCodificacionLabel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainMetricas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainRed_Intro1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.MainRed_Intro2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Explanation.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Main_Hiperparameters.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Hiperparameters_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Knn (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Knn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Metricas_0_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Red_Clases_1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Red_Clases_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mainEstandarizacion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mainNormalizacion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_EstandarizaInstancia.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/NaiveBayes&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.EWB.executor": "Debug",
+    "Python.GeneraDatos.executor": "Debug",
+    "Python.Knn_algoritmo (1).executor": "Debug",
+    "Python.Knn_algoritmo.executor": "Debug",
+    "Python.MainCodificacion.executor": "Run",
+    "Python.MainCodificacionLabel.executor": "Run",
+    "Python.MainMetricas.executor": "Run",
+    "Python.MainRed_Intro1.executor": "Debug",
+    "Python.MainRed_Intro2.executor": "Run",
+    "Python.Main_Explanation.executor": "Debug",
+    "Python.Main_Hiperparameters.executor": "Run",
+    "Python.Main_Hiperparameters_3.executor": "Run",
+    "Python.Main_Knn (1).executor": "Run",
+    "Python.Main_Knn.executor": "Run",
+    "Python.Main_Metricas_0_1.executor": "Run",
+    "Python.Main_Red_Clases_1 (1).executor": "Run",
+    "Python.Main_Red_Clases_1.executor": "Run",
+    "Python.Main_Test.executor": "Run",
+    "Python.mainEstandarizacion.executor": "Run",
+    "Python.mainNormalizacion.executor": "Run",
+    "Python.main_EstandarizaInstancia.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/NaiveBayes",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
   </component>
@@ -72,8 +73,8 @@
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main_Red_Clases_1 (1)">
-    <configuration name="MainRed_Intro1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.EWB">
+    <configuration name="EWB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RedNeuronal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P12_Discretizacion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RedNeuronal/MainRed_Intro1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P12_Discretizacion/EWB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.EWB" />
         <item itemvalue="Python.Main_Red_Clases_1 (1)" />
         <item itemvalue="Python.Main_Red_Clases_1" />
         <item itemvalue="Python.Main_Hiperparameters_3" />
         <item itemvalue="Python.MainRed_Intro2" />
-        <item itemvalue="Python.MainRed_Intro1" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +249,11 @@
           <url>file://$PROJECT_DIR$/P11_RedNeuronal_Clases/Main_Red_Clases_1.py</url>
           <line>33</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P12_Discretizacion/EWB.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
