@@ -24,16 +24,30 @@ for column in columns: #por columna o atributo
     print("width: ", v_width)
     ######################################################################    
     control  = round(v_min+v_width,4)
-    temp = [{"inferior": v_min, "superior": control}]
+    #max extremo izquierdo
+    temp = [{"inferior": 0, "superior": control}]
     for j in range(1,v_K-1):
         control2 = round(control + v_width, 4)
         s = {"inferior": control, "superior": control2}
         control = control2
         temp.append(s)
-    ultimo = {"inferior": control, "superior": v_max}
+    #max extremo derecho
+    ultimo = {"inferior": control, "superior": 999}
     temp.append(ultimo)
     intervalos.append(temp)
 
+    X[column] = X[column].astype("str")
+    for j in range(len(X)):
+        val = float(X.iloc[j][column])
+        for k in range(len(temp)):
+            inferior = temp[k]["inferior"]
+            superior = temp[k]["superior"]
+            if val >= inferior and val<superior:
+                X.loc[j, column] = "var" + str(k+1)
+         #
+    #print()
 #############################################################################################
 for i in intervalos:
     print(i)
+
+X.to_csv("../Archivos/iris/instancia_discretizada.csv", index=False)
