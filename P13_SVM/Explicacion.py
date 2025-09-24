@@ -35,7 +35,7 @@ def entrenar_y_graficar(X, y, kernel, C=1.0, gamma="scale", degree=3):
 
     #s = tamano de cada punto
     plt.scatter(X_escalada[:, 0], X_escalada[:, 1], s=25, edgecolor="k")
-    sv = modelo.support_vectors_
+    sv = modelo.support_vectors_ # puntos de datos criticos para la frontera de decision
     plt.scatter(sv[:, 0], sv[:, 1], s=120, facecolors="none", edgecolor="k", linewidths=1.3, label="SV")
 
     plt.title(f"SVM kernel={kernel}")
@@ -44,9 +44,9 @@ def entrenar_y_graficar(X, y, kernel, C=1.0, gamma="scale", degree=3):
     plt.legend(loc="best")
     plt.tight_layout()
 
-    plt.show()
+    #plt.show()
 
-    print()
+    #print()
 
 
 if __name__ == "__main__":
@@ -74,6 +74,7 @@ if __name__ == "__main__":
     plt.show()
     """
 
+    #C = tolerancia a errores
     # LINEAR (util si la separación es casi recta)
     entrenar_y_graficar(X, y, kernel="linear", C=1.0)
 

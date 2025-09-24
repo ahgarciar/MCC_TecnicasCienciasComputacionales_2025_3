@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/P08_NaiveBayes/Main_newVersion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P13_SVM/Explicacion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P13_SVM/Ejemplo_Polinomios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P13_SVM/Kernels_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P12_Discretizacion/EWB.py" beforeDir="false" afterPath="$PROJECT_DIR$/P12_Discretizacion/EWB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P12_Discretizacion/iris_completa_EWB.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/P12_Discretizacion/iris_completa_EWB.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P12_Discretizacion/~$iris_completa_EWB.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P12_Discretizacion/~$scretizacion.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P13_SVM/Explicacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/P13_SVM/Explicacion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +38,10 @@
   "keyToString": {
     "Python.EFB.executor": "Run",
     "Python.EWB.executor": "Run",
-    "Python.Explicacion.executor": "Debug",
+    "Python.Ejemplo_Polinomios.executor": "Run",
+    "Python.Explicacion.executor": "Run",
     "Python.GeneraDatos.executor": "Debug",
+    "Python.Kernels_test.executor": "Run",
     "Python.Knn_algoritmo (1).executor": "Debug",
     "Python.Knn_algoritmo.executor": "Debug",
     "Python.MainCodificacion.executor": "Run",
@@ -85,8 +86,8 @@
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main_newVersion">
-    <configuration name="EFB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Kernels_test">
+    <configuration name="Ejemplo_Polinomios" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,33 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P12_Discretizacion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P13_SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P12_Discretizacion/EFB.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="EWB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TecnicasCienciasComputacionales" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P12_Discretizacion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P12_Discretizacion/EWB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P13_SVM/Ejemplo_Polinomios.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +123,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P13_SVM/Explicacion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Kernels_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TecnicasCienciasComputacionales" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P13_SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P13_SVM/Kernels_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Kernels_test" />
+        <item itemvalue="Python.Ejemplo_Polinomios" />
+        <item itemvalue="Python.Explicacion" />
         <item itemvalue="Python.Main_newVersion" />
         <item itemvalue="Python.Main_Explanation" />
-        <item itemvalue="Python.EWB" />
-        <item itemvalue="Python.EFB" />
-        <item itemvalue="Python.Explicacion" />
       </list>
     </recent_temporary>
   </component>
@@ -266,11 +267,6 @@
           <url>file://$PROJECT_DIR$/P12_Discretizacion/EFB.py</url>
           <line>20</line>
           <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/P13_SVM/Explicacion.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/P08_NaiveBayes/Main_Explanation.py</url>
