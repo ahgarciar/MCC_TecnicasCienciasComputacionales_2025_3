@@ -50,4 +50,6 @@ for column in columns: #por columna o atributo
 for i in intervalos:
     print(i)
 
-X.to_csv("../Archivos/iris/instancia_discretizada.csv", index=False)
+X["class"] = y
+
+X.to_csv("../Archivos/iris/instancia_discretizada_EWB.csv", index=False)
