@@ -8,7 +8,7 @@ def dot(a, b):
         s += float(a[k]) * float(b[k])
     return s
 
-#distancia euclidiana al cuadrado (norma 2 al cuadrado)
+#distancia euclidiana al cuadrado (norma 2, al cuadrado)
 def dist_euclidana_al_cuadrado(a, b):
     s = 0.0
     for k in range(len(a)):
@@ -48,8 +48,11 @@ if __name__ == "__main__":
     rng = np.random.default_rng(5)
     n = 10
     datos_por_clase = int(n/2)
+    #puntos de la clase 0
     X0 = rng.normal(loc=[-5, -5], scale=1.0, size=(datos_por_clase, 2))
+    #puntos de la clase 1
     X1 = rng.normal(loc=[ 5,  5], scale=1.0, size=(datos_por_clase, 2))
+
     X = np.vstack([X0, X1])
 
     linear = linear_kernel(X)
