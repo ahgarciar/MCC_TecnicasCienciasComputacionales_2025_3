@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/P13_SVM/ExplicacionMultiClase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P14_MinimosCuadrados/mainFuncionParaAjustar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P14_IntroduccionRegresion/MinimosCuadrados.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P14_IntroduccionRegresion/RegresionSimple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P14_IntroduccionRegresion/mainFuncionParaAjustar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P13_SVM/Ejemplo_Polinomios.py" beforeDir="false" afterPath="$PROJECT_DIR$/P13_SVM/Ejemplo_Polinomios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P13_SVM/Explicacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/P13_SVM/Explicacion2D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P13_SVM/Kernels_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/P13_SVM/Kernels_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P14_MinimosCuadrados/mainFuncionParaAjustar.py" beforeDir="false" afterPath="$PROJECT_DIR$/P14_IntroduccionRegresion/MetricasError.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
     "Python.Main_Red_Clases_1.executor": "Run",
     "Python.Main_Test.executor": "Run",
     "Python.Main_newVersion.executor": "Run",
+    "Python.RegresionSimple.executor": "Run",
     "Python.mainEstandarizacion.executor": "Run",
     "Python.mainMinimosCuadrados.executor": "Run",
     "Python.mainNormalizacion.executor": "Run",
@@ -89,7 +89,7 @@
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mainFuncionParaAjustar">
+  <component name="RunManager" selected="Python.RegresionSimple">
     <configuration name="Ejemplo_Polinomios" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
@@ -156,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Kernels_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RegresionSimple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P13_SVM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P14_IntroduccionRegresion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P13_SVM/Kernels_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P14_IntroduccionRegresion/RegresionSimple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RegresionSimple" />
         <item itemvalue="Python.mainFuncionParaAjustar" />
         <item itemvalue="Python.ExplicacionMultiClase" />
         <item itemvalue="Python.Explicacion2D" />
         <item itemvalue="Python.Ejemplo_Polinomios" />
-        <item itemvalue="Python.Kernels_test" />
       </list>
     </recent_temporary>
   </component>
