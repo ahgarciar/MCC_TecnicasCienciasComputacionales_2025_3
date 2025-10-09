@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/P15_RegresionMultivariada/regresionMultivariada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P0_Serie_de_Tiempo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P2_ARIMA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P3_diferenciacion-Tendencia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P6_ACF_PACF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P7_Akaike_Information_Criterion__AIC.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.AG_LSTM_vGuardaModelos_Estandarizado.executor": "Run",
     "Python.EFB.executor": "Run",
     "Python.EWB.executor": "Run",
     "Python.Ejemplo_Polinomios.executor": "Run",
@@ -57,7 +62,19 @@
     "Python.Main_Red_Clases_1.executor": "Run",
     "Python.Main_Test.executor": "Run",
     "Python.Main_newVersion.executor": "Run",
+    "Python.P0_Serie_de_Tiempo.executor": "Run",
+    "Python.P1_ARIMA.executor": "Run",
+    "Python.P2_ARIMA.executor": "Run",
+    "Python.P3_diferenciacion-Tendencia.executor": "Run",
+    "Python.P4_ACF_PACF.executor": "Run",
+    "Python.P4_AutoARIMA.executor": "Run",
+    "Python.P6_ACF_PACF.executor": "Run",
+    "Python.P7_Akaike_Information_Criterion__AIC.executor": "Run",
+    "Python.P8_AutoARIMA.executor": "Run",
+    "Python.RedNeuronalRecurrente_Simple.executor": "Run",
     "Python.RegresionSimple.executor": "Run",
+    "Python.Serie_de_Tiempo.executor": "Run",
+    "Python.Vestandarizado_LSTM_RESULTS_LOAD_MODEL.executor": "Run",
     "Python.mainEstandarizacion.executor": "Run",
     "Python.mainMinimosCuadrados.executor": "Run",
     "Python.mainNormalizacion.executor": "Run",
@@ -67,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/P13_SVM",
+    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/P16_ARIMA",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -76,19 +93,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/P16_ARIMA" />
       <recent name="$PROJECT_DIR$/P13_SVM" />
       <recent name="$PROJECT_DIR$/P08_NaiveBayes" />
       <recent name="$PROJECT_DIR$/P12_Discretizacion" />
       <recent name="$PROJECT_DIR$/NaiveBayes" />
-      <recent name="$PROJECT_DIR$/KNN_Modularizado" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.regresionMultivariada">
-    <configuration name="Explicacion2D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.AG_LSTM_vGuardaModelos_Estandarizado">
+    <configuration name="AG_LSTM_vGuardaModelos_Estandarizado" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P13_SVM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P13_SVM/Explicacion2D.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM/AG_LSTM_vGuardaModelos_Estandarizado.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ExplicacionMultiClase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P2_ARIMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P13_SVM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P16_ARIMA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P13_SVM/ExplicacionMultiClase.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P16_ARIMA/P2_ARIMA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RegresionSimple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P8_AutoARIMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P14_IntroduccionRegresion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P16_ARIMA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P14_IntroduccionRegresion/RegresionSimple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P16_ARIMA/P8_AutoARIMA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mainFuncionParaAjustar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RedNeuronalRecurrente_Simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P14_MinimosCuadrados" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P14_MinimosCuadrados/mainFuncionParaAjustar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM/RedNeuronalRecurrente_Simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="regresionMultivariada" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Vestandarizado_LSTM_RESULTS_LOAD_MODEL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,11 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P15_RegresionMultivariada" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P15_RegresionMultivariada/regresionMultivariada.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM/Vestandarizado_LSTM_RESULTS_LOAD_MODEL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.regresionMultivariada" />
-        <item itemvalue="Python.RegresionSimple" />
-        <item itemvalue="Python.mainFuncionParaAjustar" />
-        <item itemvalue="Python.ExplicacionMultiClase" />
-        <item itemvalue="Python.Explicacion2D" />
+        <item itemvalue="Python.AG_LSTM_vGuardaModelos_Estandarizado" />
+        <item itemvalue="Python.RedNeuronalRecurrente_Simple" />
+        <item itemvalue="Python.Vestandarizado_LSTM_RESULTS_LOAD_MODEL" />
+        <item itemvalue="Python.P8_AutoARIMA" />
+        <item itemvalue="Python.P2_ARIMA" />
       </list>
     </recent_temporary>
   </component>
