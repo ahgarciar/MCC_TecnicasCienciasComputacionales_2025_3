@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P0_Serie_de_Tiempo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P2_ARIMA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P3_diferenciacion-Tendencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P6_ACF_PACF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P16_ARIMA/P7_Akaike_Information_Criterion__AIC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
