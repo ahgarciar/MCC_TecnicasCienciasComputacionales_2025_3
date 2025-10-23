@@ -4,7 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="" />
+    <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/RespaldoMejor/history_product_1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/RespaldoMejor/modelo_product_1.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/history_mejora_1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/history_mejora_2.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/history_mejora_3.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/history_mejora_4.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/modelo_mejora_1.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/modelo_mejora_2.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/modelo_mejora_3.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Mejor_Modelo/modelo_mejora_4.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/MetricasDeError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Modelos_Temporales/history_child_2.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Modelos_Temporales/history_child_4.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Modelos_Temporales/history_child_9.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Modelos_Temporales/modelo_child_2.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Modelos_Temporales/modelo_child_4.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Modelos_Temporales/modelo_child_9.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Parameterset_for_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/Vestandarizado_LSTM_RESULTS_LOAD_MODEL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/instancias/Instancia_Producto1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P20_Forecasting_LSTM/main_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/RespaldoMejor/history_product_1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/RespaldoMejor/modelo_product_1.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/history_mejora_1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/history_mejora_2.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/history_mejora_3.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/history_mejora_4.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/modelo_mejora_1.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/modelo_mejora_2.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/modelo_mejora_3.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Mejor_Modelo/modelo_mejora_4.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/MetricasDeError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Modelos_Temporales/history_child_2.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Modelos_Temporales/history_child_4.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Modelos_Temporales/history_child_9.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Modelos_Temporales/modelo_child_2.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Modelos_Temporales/modelo_child_4.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Modelos_Temporales/modelo_child_9.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Parameterset_for_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Vestandarizado_LSTM_RESULTS_LOAD_MODEL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/instancias/Instancia_Producto1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/main_GRU_sandra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/main_LSTM_sandra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/vLSTM_RESULTS_Sandra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P22_Kmeans/main_DBScan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P22_Kmeans/main_Kmeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P22_Kmeans/main_PCA_DBScan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +80,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.AG_LSTM_vGuardaModelos_Estandarizado.executor": "Run",
+    "Python.AG_LSTM_vGuardaModelos_Estandarizado.executor": "Debug",
     "Python.EFB.executor": "Run",
     "Python.EWB.executor": "Run",
     "Python.Ejemplo_Polinomios.executor": "Run",
@@ -66,18 +116,29 @@
     "Python.P8_AutoARIMA.executor": "Run",
     "Python.RedNeuronalRecurrente_Simple.executor": "Run",
     "Python.RegresionSimple.executor": "Run",
+    "Python.Results_LOAD_MODEL.executor": "Debug",
     "Python.Serie_de_Tiempo.executor": "Run",
-    "Python.Vestandarizado_LSTM_RESULTS_LOAD_MODEL.executor": "Run",
+    "Python.Vestandarizado_LSTM_RESULTS_LOAD_MODEL (1).executor": "Run",
+    "Python.Vestandarizado_LSTM_RESULTS_LOAD_MODEL.executor": "Debug",
     "Python.mainEstandarizacion.executor": "Run",
     "Python.mainMinimosCuadrados.executor": "Run",
     "Python.mainNormalizacion.executor": "Run",
     "Python.mainSVM.executor": "Debug",
+    "Python.main_DBScan.executor": "Run",
     "Python.main_EstandarizaInstancia.executor": "Run",
+    "Python.main_GRU_sandra.executor": "Run",
+    "Python.main_Kmeans.executor": "Run",
+    "Python.main_LSTM (1).executor": "Run",
+    "Python.main_LSTM.executor": "Run",
+    "Python.main_LSTM_sandra.executor": "Run",
+    "Python.main_PCA_DBScan.executor": "Run",
+    "Python.main_PCA_Kmeans.executor": "Run",
     "Python.regresionMultivariada.executor": "Run",
+    "Python.vLSTM_RESULTS_Sandra.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/P16_ARIMA",
+    "last_opened_file_path": "/Users/alejandrogarciaruiz/Dropbox/FIT-UAT-2025-3/MCC_3A_2025_3/TecnicasCienciasComputacionales/P22_Kmeans",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -86,19 +147,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/P22_Kmeans" />
+      <recent name="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/P16_ARIMA" />
       <recent name="$PROJECT_DIR$/P13_SVM" />
-      <recent name="$PROJECT_DIR$/P08_NaiveBayes" />
-      <recent name="$PROJECT_DIR$/P12_Discretizacion" />
-      <recent name="$PROJECT_DIR$/NaiveBayes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AG_LSTM_vGuardaModelos_Estandarizado">
-    <configuration name="AG_LSTM_vGuardaModelos_Estandarizado" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main_PCA_Kmeans">
+    <configuration name="main_DBScan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM/AG_LSTM_vGuardaModelos_Estandarizado.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_DBScan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P2_ARIMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,11 +190,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P16_ARIMA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P16_ARIMA/P2_ARIMA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_Kmeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P8_AutoARIMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_PCA_DBScan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +212,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P16_ARIMA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P16_ARIMA/P8_AutoARIMA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_PCA_DBScan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RedNeuronalRecurrente_Simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_PCA_Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,11 +234,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM/RedNeuronalRecurrente_Simple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Vestandarizado_LSTM_RESULTS_LOAD_MODEL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="vLSTM_RESULTS_Sandra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,11 +256,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM/Vestandarizado_LSTM_RESULTS_LOAD_MODEL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/vLSTM_RESULTS_Sandra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AG_LSTM_vGuardaModelos_Estandarizado" />
-        <item itemvalue="Python.RedNeuronalRecurrente_Simple" />
-        <item itemvalue="Python.Vestandarizado_LSTM_RESULTS_LOAD_MODEL" />
-        <item itemvalue="Python.P8_AutoARIMA" />
-        <item itemvalue="Python.P2_ARIMA" />
+        <item itemvalue="Python.main_PCA_Kmeans" />
+        <item itemvalue="Python.main_PCA_DBScan" />
+        <item itemvalue="Python.main_DBScan" />
+        <item itemvalue="Python.main_Kmeans" />
+        <item itemvalue="Python.vLSTM_RESULTS_Sandra" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +349,21 @@
           <url>file://$PROJECT_DIR$/P13_SVM/Explicacion2D.py</url>
           <line>80</line>
           <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P17_Genetico_Forecasting_LSTM/AG_LSTM_vGuardaModelos_Estandarizado.py</url>
+          <line>320</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P19_Forecasting_Recurrente/Results_LOAD_MODEL.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P19_Genetico_Forecasting_Recurrente/Vestandarizado_LSTM_RESULTS_LOAD_MODEL.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
