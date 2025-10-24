@@ -9,7 +9,6 @@ from sklearn.decomposition import PCA
 
 import matplotlib.pyplot as plt
 
-
 RANDOM_STATE = 42
 K_MIN, K_MAX = 2, 6
 FEATURE_COLS = ["Evaluacion", "Amabilidad", "Asesorias", "Rapidez", "Emocion BETO"]
