@@ -68,6 +68,8 @@ def load_instance(instance_name=''):
 
         instance = df[feature_cols + [target_col]].copy()
 
+        instance.to_csv("Instancia_Preprocesada.csv", index = None)
+
         # escalado de cada columna por separado
         instance_std = pd.DataFrame(index=instance.index)
         for column in instance.columns:
@@ -76,6 +78,8 @@ def load_instance(instance_name=''):
             scalers.update({column: scaler})
 
         instance_std = instance_std.astype(np.float32)
+
+        instance_std.to_csv("Instancia_Estandarizada.csv", index=None)
 
         # estadísticas de la variable objetivo (T2M) para la capa CustomNormalization
         mean = scalers[target_col].mean_

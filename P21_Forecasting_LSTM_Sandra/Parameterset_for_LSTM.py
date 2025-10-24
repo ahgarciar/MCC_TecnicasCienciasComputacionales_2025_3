@@ -7,7 +7,7 @@ class ParameterSetLSTM:
     min_max_values = [
         (50, 300),  # Unidades LSTM 1            --- 0
         (50, 300),  # Unidades LSTM 2            --- 1
-        (50, 300),  # Unidades LSTM 3            --- 2
+        (50, 300),  # Unidades LSTM 3            --- 2   ---PARA SANDRA NO SE UTILIZA
         (10, 50),  # Epocas                       --- 3
         [10, 20],  # Batch Size                    --- 4
         (0.0001, 0.01),  # Learning rate          --- 5

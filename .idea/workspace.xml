@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/SUPERVISED_DATASET.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P23_Test/ANFIS_NORMAL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans_miguel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans_miguel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Figuras.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Figuras.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Parameterset_for_LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/Parameterset_for_LSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/vLSTM_RESULTS_Sandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/vLSTM_RESULTS_Sandra.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.AG_LSTM_vGuardaModelos_Estandarizado.executor": "Debug",
+    "Python.ANFIS_NORMAL.executor": "Run",
+    "Python.ANFIS_codeMedium.executor": "Run",
     "Python.EFB.executor": "Run",
     "Python.EWB.executor": "Run",
     "Python.Ejemplo_Polinomios.executor": "Run",
@@ -43,6 +49,8 @@
     "Python.Kernels_test.executor": "Run",
     "Python.Knn_algoritmo (1).executor": "Debug",
     "Python.Knn_algoritmo.executor": "Debug",
+    "Python.LSTM_LOAD_INSTANCE.executor": "Run",
+    "Python.LSTM_SUPERVISED_DATASET.executor": "Run",
     "Python.MainCodificacion.executor": "Run",
     "Python.MainCodificacionLabel.executor": "Run",
     "Python.MainMetricas.executor": "Run",
@@ -88,7 +96,7 @@
     "Python.main_PCA_Kmeans.executor": "Run",
     "Python.regresionMultivariada.executor": "Run",
     "Python.test_.executor": "Run",
-    "Python.vLSTM_RESULTS_Sandra.executor": "Run",
+    "Python.vLSTM_RESULTS_Sandra.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -108,12 +116,13 @@
       <recent name="$PROJECT_DIR$/P13_SVM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/P23_Test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_PCA_Kmeans_miguel">
-    <configuration name="main_DBScan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.vLSTM_RESULTS_Sandra">
+    <configuration name="ANFIS_NORMAL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P23_Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_DBScan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P23_Test/ANFIS_NORMAL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ANFIS_codeMedium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,11 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P23_Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_Kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P23_Test/ANFIS_codeMedium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_PCA_DBScan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LOAD_INSTANCE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_PCA_DBScan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/LOAD_INSTANCE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_PCA_Kmeans_miguel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SUPERVISED_DATASET" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,11 +197,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans_miguel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/SUPERVISED_DATASET.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="vLSTM_RESULTS_Sandra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,11 +219,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P22_Kmeans" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/test_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/vLSTM_RESULTS_Sandra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_PCA_Kmeans_miguel" />
-        <item itemvalue="Python.main_PCA_DBScan" />
-        <item itemvalue="Python.test_" />
-        <item itemvalue="Python.main_DBScan" />
-        <item itemvalue="Python.main_Kmeans" />
+        <item itemvalue="Python.vLSTM_RESULTS_Sandra" />
+        <item itemvalue="Python.LSTM_LOAD_INSTANCE" />
+        <item itemvalue="Python.LSTM_SUPERVISED_DATASET" />
+        <item itemvalue="Python.ANFIS_codeMedium" />
+        <item itemvalue="Python.ANFIS_NORMAL" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +327,11 @@
           <url>file://$PROJECT_DIR$/P19_Genetico_Forecasting_Recurrente/Vestandarizado_LSTM_RESULTS_LOAD_MODEL.py</url>
           <line>103</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P21_Forecasting_LSTM_Sandra/vLSTM_RESULTS_Sandra.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
