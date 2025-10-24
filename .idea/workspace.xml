@@ -5,53 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79be6e82-aa1e-4e8c-a61e-089c96e619ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/P22_Kmeans/test_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/main_DBScan.py" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/main_DBScan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/main_Kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/main_Kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/main_PCA_DBScan.py" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/main_PCA_DBScan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat1_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat2_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat3_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Biblioteca_cat4_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat1_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat2_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat3_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_conteos_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_conteos_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_etiquetado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_etiquetado.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_pca2d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_pca2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_pca2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_pca2d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_resumen_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/Tecnologias_cat4_resumen_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/reporte_maestro_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/P22_Kmeans/salidas_clusters/reporte_maestro_clusters.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
