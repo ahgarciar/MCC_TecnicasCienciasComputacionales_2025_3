@@ -111,7 +111,7 @@
       <recent name="$PROJECT_DIR$/Archivos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_PCA_Kmeans">
+  <component name="RunManager" selected="Python.main_PCA_Kmeans_miguel">
     <configuration name="main_DBScan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
@@ -178,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_PCA_Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_PCA_Kmeans_miguel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TecnicasCienciasComputacionales" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P22_Kmeans/main_PCA_Kmeans_miguel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +224,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_PCA_Kmeans" />
+        <item itemvalue="Python.main_PCA_Kmeans_miguel" />
         <item itemvalue="Python.main_PCA_DBScan" />
         <item itemvalue="Python.test_" />
         <item itemvalue="Python.main_DBScan" />
