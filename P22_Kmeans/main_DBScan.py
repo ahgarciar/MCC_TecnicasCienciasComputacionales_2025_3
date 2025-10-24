@@ -19,15 +19,7 @@ PATH_TEC = "tecnologias.csv"
 OUT_DIR = Path("salidas_dbscan")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-
-# -------------------------
-# UTILIDADES
-# -------------------------
 def elegir_mejor_parametros_dbscan(X_scaled, eps_values=None, min_samples_values=None):
-    """
-    Explora combinaciones de eps y min_samples para encontrar el mejor silhouette.
-    Devuelve (mejor_eps, mejor_min_samples, mejor_score)
-    """
     if eps_values is None:
         eps_values = np.linspace(0.3, 2.0, 8)  # rango de distancia
     if min_samples_values is None:
@@ -54,9 +46,6 @@ def elegir_mejor_parametros_dbscan(X_scaled, eps_values=None, min_samples_values
 
 
 def graficar_pca_scatter(X_scaled, labels, titulo, out_path_png):
-    """
-    Proyecta a 2D con PCA y guarda figura PNG con clusters y ruido (-1).
-    """
     if len(np.unique(labels)) < 2 or X_scaled.shape[0] < 2:
         return
 
@@ -91,9 +80,6 @@ def clusterizar_subconjunto_dbscan(subset: pd.DataFrame,
                                    instancia: str,
                                    categoria_val,
                                    out_dir: Path):
-    """
-    Aplica DBSCAN y guarda CSVs y gráficas PCA.
-    """
     X = subset[FEATURE_COLS].to_numpy()
 
     #scaler = StandardScaler()
@@ -103,7 +89,7 @@ def clusterizar_subconjunto_dbscan(subset: pd.DataFrame,
     scaler = RobustScaler()
     Xs = scaler.fit_transform(X)
 
-    # Buscar mejores parámetros
+    # Busca mejores parámetros
     eps_opt, ms_opt, sil = elegir_mejor_parametros_dbscan(Xs)
 
     if eps_opt is None:
@@ -167,18 +153,12 @@ def analizar_instancia_dbscan(df: pd.DataFrame, nombre_instancia: str, out_dir: 
     return resultados
 
 
-# -------------------------
-# CARGA Y EJECUCIÓN
-# -------------------------
 bib = pd.read_csv(PATH_BIB)
 tec = pd.read_csv(PATH_TEC)
 
 res_bib = analizar_instancia_dbscan(bib, "Biblioteca", OUT_DIR)
 res_tec = analizar_instancia_dbscan(tec, "Tecnologias", OUT_DIR)
 
-# -------------------------
-# REPORTE MAESTRO
-# -------------------------
 rows = []
 for instancia, res in [("Biblioteca", res_bib), ("Tecnologias", res_tec)]:
     for cat, info in res.items():
@@ -192,4 +172,4 @@ for instancia, res in [("Biblioteca", res_bib), ("Tecnologias", res_tec)]:
 reporte_maestro = pd.DataFrame(rows).sort_values(["Instancia", "Categoria"])
 reporte_maestro.to_csv(OUT_DIR / "reporte_maestro_dbscan.csv", index=False, encoding="utf-8")
 
-print("Listo. Revisa la carpeta:", OUT_DIR.resolve())
+print("Listo. Carpeta:", OUT_DIR.resolve())

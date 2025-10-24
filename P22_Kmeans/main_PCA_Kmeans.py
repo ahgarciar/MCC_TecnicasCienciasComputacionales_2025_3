@@ -20,10 +20,6 @@ PATH_TEC = "tecnologias.csv"
 OUT_DIR = Path("salidas_clusters")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-
-# -------------------------
-# UTILIDADES
-# -------------------------
 def elegir_mejor_k(X_scaled, k_min=K_MIN, k_max=K_MAX):
     n = X_scaled.shape[0]
     k_max_real = max(k_min, min(k_max, n - 1))
@@ -50,10 +46,6 @@ def elegir_mejor_k(X_scaled, k_min=K_MIN, k_max=K_MAX):
 
 
 def graficar_pca_scatter(X_scaled, labels, titulo, out_path_png):
-    """
-    Proyecta a 2D con PCA y guarda una figura PNG con los puntos coloreados por cluster.
-    La leyenda se coloca fuera del área de puntos para evitar superposición.
-    """
     if len(np.unique(labels)) < 2 or X_scaled.shape[0] < 2:
         return  # sin suficiente variación para visualizar
 
@@ -82,7 +74,7 @@ def graficar_pca_scatter(X_scaled, labels, titulo, out_path_png):
     plt.savefig(out_path_png, dpi=150)
     plt.close()
 
-    # También regresamos el dataframe PCA por si lo quieres guardar
+    # También regresa al dataframe PCA por si se quiere guardar
     return pd.DataFrame({"PC1": Z[:, 0], "PC2": Z[:, 1], "Cluster": labels})
 
 
@@ -91,19 +83,19 @@ def clusterizar_subconjunto(subset: pd.DataFrame,
                             instancia: str,
                             categoria_val,
                             out_dir: Path):
-    """
-    subset: DataFrame filtrado por categoría (usar .copy() antes de llamar).
-    Guarda CSVs y PNG de la PCA.
-    """
     # Selección de variables
     X = subset[FEATURE_COLS].to_numpy()
 
     # Estandarización
-    scaler = StandardScaler()
+    #scaler = StandardScaler()
+    #Xs = scaler.fit_transform(X)
+
+    from sklearn.preprocessing import RobustScaler
+    scaler = RobustScaler()
     Xs = scaler.fit_transform(X)
 
-    # 🔹 PCA: conservar 95% de la varianza
-    pca = PCA(n_components=0.95, random_state=RANDOM_STATE)
+    # PCA: conservar 95% de la varianza
+    pca = PCA(n_components=0.85, random_state=RANDOM_STATE)
     X_pca = pca.fit_transform(Xs)
 
     # Elegir k y entrenar
@@ -168,19 +160,12 @@ def analizar_instancia(df: pd.DataFrame, nombre_instancia: str, out_dir: Path):
 
     return resultados
 
-
-# -------------------------
-# CARGA Y EJECUCIÓN
-# -------------------------
 bib = pd.read_csv(PATH_BIB)
 tec = pd.read_csv(PATH_TEC)
 
 res_bib = analizar_instancia(bib, "Biblioteca", OUT_DIR)
 res_tec = analizar_instancia(tec, "Tecnologias", OUT_DIR)
 
-# -------------------------
-# REPORTE MAESTRO (opcional pero MUY útil)
-# -------------------------
 rows = []
 for instancia, res in [("Biblioteca", res_bib), ("Tecnologias", res_tec)]:
     for cat, info in res.items():
@@ -193,4 +178,4 @@ for instancia, res in [("Biblioteca", res_bib), ("Tecnologias", res_tec)]:
 reporte_maestro = pd.DataFrame(rows).sort_values(["Instancia", "Categoria"])
 reporte_maestro.to_csv(OUT_DIR / "reporte_maestro_clusters.csv", index=False, encoding="utf-8")
 
-print("Listo. Revisa la carpeta:", OUT_DIR.resolve())
+print("Listo. Carpeta:", OUT_DIR.resolve())

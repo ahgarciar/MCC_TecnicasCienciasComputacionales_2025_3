@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-from sklearn.preprocessing import StandardScaler  # puedes cambiar por RobustScaler
+from sklearn.preprocessing import StandardScaler  # puede cambiarse por RobustScaler
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import silhouette_score
 from sklearn.decomposition import PCA
@@ -19,15 +19,7 @@ PATH_TEC = "tecnologias.csv"
 OUT_DIR = Path("salidas_dbscan_pca")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-
-# -------------------------
-# UTILIDADES
-# -------------------------
 def elegir_mejor_parametros_dbscan(X_scaled, eps_values=None, min_samples_values=None):
-    """
-    Explora combinaciones de eps y min_samples para encontrar el mejor silhouette.
-    Devuelve (mejor_eps, mejor_min_samples, mejor_score)
-    """
     if eps_values is None:
         eps_values = np.linspace(0.1, 0.8, 15)
     if min_samples_values is None:
@@ -53,9 +45,6 @@ def elegir_mejor_parametros_dbscan(X_scaled, eps_values=None, min_samples_values
 
 
 def graficar_pca_scatter(X_scaled, labels, titulo, out_path_png):
-    """
-    Proyecta a 2D con PCA para visualizar y guarda figura PNG.
-    """
     if len(np.unique(labels)) < 2 or X_scaled.shape[0] < 2:
         return
 
@@ -87,20 +76,17 @@ def clusterizar_subconjunto_dbscan(subset: pd.DataFrame,
                                    instancia: str,
                                    categoria_val,
                                    out_dir: Path):
-    """
-    Aplica DBSCAN con PCA previo y guarda CSVs y gráficas PCA.
-    """
     X = subset[FEATURE_COLS].to_numpy()
 
     # Escalado
     scaler = StandardScaler()
     Xs = scaler.fit_transform(X)
 
-    # 🔹 PCA: conservar 95% de la varianza
+    # conserva 95% de la varianza
     pca = PCA(n_components=0.95, random_state=RANDOM_STATE)
     X_pca = pca.fit_transform(Xs)
 
-    # Buscar mejores parámetros sobre los datos reducidos
+    # Busca mejores parámetros sobre los datos reducidos
     eps_opt, ms_opt, sil = elegir_mejor_parametros_dbscan(X_pca)
     if eps_opt is None:
         eps_opt, ms_opt, sil = 0.8, 3, np.nan
@@ -164,19 +150,12 @@ def analizar_instancia_dbscan(df: pd.DataFrame, nombre_instancia: str, out_dir: 
 
     return resultados
 
-
-# -------------------------
-# CARGA Y EJECUCIÓN
-# -------------------------
 bib = pd.read_csv(PATH_BIB)
 tec = pd.read_csv(PATH_TEC)
 
 res_bib = analizar_instancia_dbscan(bib, "Biblioteca", OUT_DIR)
 res_tec = analizar_instancia_dbscan(tec, "Tecnologias", OUT_DIR)
 
-# -------------------------
-# REPORTE MAESTRO
-# -------------------------
 rows = []
 for instancia, res in [("Biblioteca", res_bib), ("Tecnologias", res_tec)]:
     for cat, info in res.items():
@@ -191,4 +170,4 @@ for instancia, res in [("Biblioteca", res_bib), ("Tecnologias", res_tec)]:
 reporte_maestro = pd.DataFrame(rows).sort_values(["Instancia", "Categoria"])
 reporte_maestro.to_csv(OUT_DIR / "reporte_maestro_dbscan_pca.csv", index=False, encoding="utf-8")
 
-print("Listo. Revisa la carpeta:", OUT_DIR.resolve())
+print("Listo. Ccarpeta:", OUT_DIR.resolve())
